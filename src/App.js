@@ -1,7 +1,42 @@
 import logo from './logo.svg';
 import './App.css';
+import './Flip.css';
 
-function App() {
+export default function App() {
+  return (<div className="gwrap">
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>    
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>    
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>    
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>    
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+  </div>
+    
+  );
+}
+
+function Flip() {
+  return (
+    <div className="Flip">VVV</div>
+  )
+}
+
+function Logo() {
   return (
     <div className="App">
       <header className="App-header">
@@ -22,4 +57,4 @@ function App() {
   );
 }
 
-export default App;
+
