@@ -25,6 +25,16 @@ export default function App() {
     <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
     <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
     <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>    
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>    
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
+    <Flip/><Flip/><Flip/><Flip/><Flip/><Flip/><Flip/>
   </div>
     
   );
@@ -32,7 +42,7 @@ export default function App() {
 
 function Flip() {
   return (
-    <div className="Flip">VVV</div>
+    <div className="Flip">oVo</div>
   )
 }
 
